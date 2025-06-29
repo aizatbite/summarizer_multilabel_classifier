@@ -1,0 +1,12 @@
+pandas
+google-generativeai
+tqdm
+openpyxl
+datasets 
+transformers 
+numpy 
+evaluate
+torch
+scikit-learn
+accelerate
+tiktoken

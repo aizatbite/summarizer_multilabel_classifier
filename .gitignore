@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -205,3 +206,31 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+=======
+# Ignore data and model output files
+training_data_for_classifier.csv
+Private Network Tracker - Masterfile for support team 1Q25 - 23-April-25_vOL.xlsx
+*.xlsx
+*.csv
+trained_multilabel_model/
+checkpoint-*/
+*.safetensors
+*.bin
+*.pth
+*.log
+*.jsonl
+
+# Ignore virtual environment
+venv/
+
+# Ignore Jupyter and Python cache
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+>>>>>>> 43c374c (Initial commit: summarizer & multi label classification)
